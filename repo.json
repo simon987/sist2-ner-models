@@ -1,0 +1,443 @@
+[
+  {
+    "name": "bert-ner-mini-q8",
+    "size": 11858793,
+    "modelPath": "models/bert-ner-mini-js8/model.json",
+    "vocabPath": "models/bert-ner-mini-js8/vocab.json",
+    "id2label": [
+      "B-LOC",
+      "B-ORG",
+      "B-PER",
+      "I-LOC",
+      "I-ORG",
+      "I-PER",
+      "O"
+    ],
+    "legend": {
+      "LOC": "Location",
+      "ORG": "Organisation",
+      "PER": "Person"
+    },
+    "humanLabels": {
+      "B-LOC": "LOC",
+      "I-LOC": "LOC",
+      "B-PER": "PER",
+      "I-PER": "PER",
+      "B-ORG": "ORG",
+      "I-ORG": "OGR",
+      "O": "O"
+    },
+    "labelStyles": {
+      "LOC": {
+        "backgroundColor": "#636EFF",
+        "color": "#fff",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "ORG": {
+        "backgroundColor": "#ffb329",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "PER": {
+        "backgroundColor": "#ef0042",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "O": {}
+    },
+    "default": false
+  },
+  {
+    "name": "bert-ner-mini-q16",
+    "size": 22965645,
+    "modelPath": "models/bert-ner-mini-js16/model.json",
+    "vocabPath": "models/bert-ner-mini-js16/vocab.json",
+    "id2label": [
+      "B-LOC",
+      "B-ORG",
+      "B-PER",
+      "I-LOC",
+      "I-ORG",
+      "I-PER",
+      "O"
+    ],
+    "legend": {
+      "LOC": "Location",
+      "ORG": "Organisation",
+      "PER": "Person"
+    },
+    "humanLabels": {
+      "B-LOC": "LOC",
+      "I-LOC": "LOC",
+      "B-PER": "PER",
+      "I-PER": "PER",
+      "B-ORG": "ORG",
+      "I-ORG": "OGR",
+      "O": "O"
+    },
+    "labelStyles": {
+      "LOC": {
+        "backgroundColor": "#636EFF",
+        "color": "#fff",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "ORG": {
+        "backgroundColor": "#ffb329",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "PER": {
+        "backgroundColor": "#ef0042",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "O": {}
+    },
+    "default": false
+  },
+  {
+    "name": "bert-ner-small-q8",
+    "size": 29256927,
+    "modelPath": "models/bert-ner-small-js8/model.json",
+    "vocabPath": "models/bert-ner-small-js8/vocab.json",
+    "id2label": [
+      "B-LOC",
+      "B-ORG",
+      "B-PER",
+      "I-LOC",
+      "I-ORG",
+      "I-PER",
+      "O"
+    ],
+    "legend": {
+      "LOC": "Location",
+      "ORG": "Organisation",
+      "PER": "Person"
+    },
+    "humanLabels": {
+      "B-LOC": "LOC",
+      "I-LOC": "LOC",
+      "B-PER": "PER",
+      "I-PER": "PER",
+      "B-ORG": "ORG",
+      "I-ORG": "OGR",
+      "O": "O"
+    },
+    "labelStyles": {
+      "LOC": {
+        "backgroundColor": "#636EFF",
+        "color": "#fff",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "ORG": {
+        "backgroundColor": "#ffb329",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "PER": {
+        "backgroundColor": "#ef0042",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "O": {}
+    },
+    "default": false
+  },
+  {
+    "name": "bert-ner-medium-q8",
+    "size": 42258228,
+    "modelPath": "models/bert-ner-medium-js8/model.json",
+    "vocabPath": "models/bert-ner-medium-js8/vocab.json",
+    "id2label": [
+      "B-LOC",
+      "B-ORG",
+      "B-PER",
+      "I-LOC",
+      "I-ORG",
+      "I-PER",
+      "O"
+    ],
+    "legend": {
+      "LOC": "Location",
+      "ORG": "Organisation",
+      "PER": "Person"
+    },
+    "humanLabels": {
+      "B-LOC": "LOC",
+      "I-LOC": "LOC",
+      "B-PER": "PER",
+      "I-PER": "PER",
+      "B-ORG": "ORG",
+      "I-ORG": "OGR",
+      "O": "O"
+    },
+    "labelStyles": {
+      "LOC": {
+        "backgroundColor": "#636EFF",
+        "color": "#fff",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "ORG": {
+        "backgroundColor": "#ffb329",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "PER": {
+        "backgroundColor": "#ef0042",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "O": {}
+    },
+    "default": true
+  },
+  {
+    "name": "bert-ner-mini",
+    "size": 45166828,
+    "modelPath": "models/bert-ner-mini-js/model.json",
+    "vocabPath": "models/bert-ner-mini-js/vocab.json",
+    "id2label": [
+      "B-LOC",
+      "B-ORG",
+      "B-PER",
+      "I-LOC",
+      "I-ORG",
+      "I-PER",
+      "O"
+    ],
+    "legend": {
+      "LOC": "Location",
+      "ORG": "Organisation",
+      "PER": "Person"
+    },
+    "humanLabels": {
+      "B-LOC": "LOC",
+      "I-LOC": "LOC",
+      "B-PER": "PER",
+      "I-PER": "PER",
+      "B-ORG": "ORG",
+      "I-ORG": "OGR",
+      "O": "O"
+    },
+    "labelStyles": {
+      "LOC": {
+        "backgroundColor": "#636EFF",
+        "color": "#fff",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "ORG": {
+        "backgroundColor": "#ffb329",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "PER": {
+        "backgroundColor": "#ef0042",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "O": {}
+    },
+    "default": false
+  },
+  {
+    "name": "bert-ner-small-q16",
+    "size": 57761890,
+    "modelPath": "models/bert-ner-small-js16/model.json",
+    "vocabPath": "models/bert-ner-small-js16/vocab.json",
+    "id2label": [
+      "B-LOC",
+      "B-ORG",
+      "B-PER",
+      "I-LOC",
+      "I-ORG",
+      "I-PER",
+      "O"
+    ],
+    "legend": {
+      "LOC": "Location",
+      "ORG": "Organisation",
+      "PER": "Person"
+    },
+    "humanLabels": {
+      "B-LOC": "LOC",
+      "I-LOC": "LOC",
+      "B-PER": "PER",
+      "I-PER": "PER",
+      "B-ORG": "ORG",
+      "I-ORG": "OGR",
+      "O": "O"
+    },
+    "labelStyles": {
+      "LOC": {
+        "backgroundColor": "#636EFF",
+        "color": "#fff",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "ORG": {
+        "backgroundColor": "#ffb329",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "PER": {
+        "backgroundColor": "#ef0042",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "O": {}
+    },
+    "default": false
+  },
+  {
+    "name": "bert-ner-medium-q16",
+    "size": 83372959,
+    "modelPath": "models/bert-ner-medium-js16/model.json",
+    "vocabPath": "models/bert-ner-medium-js16/vocab.json",
+    "id2label": [
+      "B-LOC",
+      "B-ORG",
+      "B-PER",
+      "I-LOC",
+      "I-ORG",
+      "I-PER",
+      "O"
+    ],
+    "legend": {
+      "LOC": "Location",
+      "ORG": "Organisation",
+      "PER": "Person"
+    },
+    "humanLabels": {
+      "B-LOC": "LOC",
+      "I-LOC": "LOC",
+      "B-PER": "PER",
+      "I-PER": "PER",
+      "B-ORG": "ORG",
+      "I-ORG": "OGR",
+      "O": "O"
+    },
+    "labelStyles": {
+      "LOC": {
+        "backgroundColor": "#636EFF",
+        "color": "#fff",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "ORG": {
+        "backgroundColor": "#ffb329",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "PER": {
+        "backgroundColor": "#ef0042",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "O": {}
+    },
+    "default": false
+  },
+  {
+    "name": "bert-ner-small",
+    "size": 114759334,
+    "modelPath": "models/bert-ner-small-js/model.json",
+    "vocabPath": "models/bert-ner-small-js/vocab.json",
+    "id2label": [
+      "B-LOC",
+      "B-ORG",
+      "B-PER",
+      "I-LOC",
+      "I-ORG",
+      "I-PER",
+      "O"
+    ],
+    "legend": {
+      "LOC": "Location",
+      "ORG": "Organisation",
+      "PER": "Person"
+    },
+    "humanLabels": {
+      "B-LOC": "LOC",
+      "I-LOC": "LOC",
+      "B-PER": "PER",
+      "I-PER": "PER",
+      "B-ORG": "ORG",
+      "I-ORG": "OGR",
+      "O": "O"
+    },
+    "labelStyles": {
+      "LOC": {
+        "backgroundColor": "#636EFF",
+        "color": "#fff",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "ORG": {
+        "backgroundColor": "#ffb329",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "PER": {
+        "backgroundColor": "#ef0042",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "O": {}
+    },
+    "default": false
+  },
+  {
+    "name": "bert-ner-medium",
+    "size": 165578734,
+    "modelPath": "models/bert-ner-medium-js/model.json",
+    "vocabPath": "models/bert-ner-medium-js/vocab.json",
+    "id2label": [
+      "B-LOC",
+      "B-ORG",
+      "B-PER",
+      "I-LOC",
+      "I-ORG",
+      "I-PER",
+      "O"
+    ],
+    "legend": {
+      "LOC": "Location",
+      "ORG": "Organisation",
+      "PER": "Person"
+    },
+    "humanLabels": {
+      "B-LOC": "LOC",
+      "I-LOC": "LOC",
+      "B-PER": "PER",
+      "I-PER": "PER",
+      "B-ORG": "ORG",
+      "I-ORG": "OGR",
+      "O": "O"
+    },
+    "labelStyles": {
+      "LOC": {
+        "backgroundColor": "#636EFF",
+        "color": "#fff",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "ORG": {
+        "backgroundColor": "#ffb329",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "PER": {
+        "backgroundColor": "#ef0042",
+        "border-radius": "3px",
+        "padding": "0 2px"
+      },
+      "O": {}
+    },
+    "default": false
+  }
+]

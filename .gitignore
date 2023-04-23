@@ -1,0 +1,8 @@
+.idea/
+_old_exploration
+.ipynb_checkpoints
+*.iml
+my_ner_dataset
+bert-ner
+models/*
+!models/*-js*/
