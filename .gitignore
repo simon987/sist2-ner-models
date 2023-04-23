@@ -6,3 +6,5 @@ my_ner_dataset
 bert-ner
 models/*
 !models/*-js*/
+*.pyc
+__pycache__
