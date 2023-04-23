@@ -49,7 +49,7 @@ def main(models_path: str = ".", output: str = "repo.json"):
                 "B-PER": "PER",
                 "I-PER": "PER",
                 "B-ORG": "ORG",
-                "I-ORG": "OGR",
+                "I-ORG": "ORG",
                 "O": "O"
             },
             "labelStyles": {
@@ -65,7 +65,7 @@ def main(models_path: str = ".", output: str = "repo.json"):
                     "padding": "0 2px"
                 },
                 "PER": {
-                    "backgroundColor": "#ef0042",
+                    "backgroundColor": "#FF4081",
                     "border-radius": "3px",
                     "padding": "0 2px"
                 },

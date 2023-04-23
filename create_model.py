@@ -95,7 +95,7 @@ def create_model(output_path: str, num_train_epochs: int = 10, base_model: str =
 
     model.compile(optimizer=optimizer)
 
-    hist = model.fit(x=tf_train_set, epochs=num_train_epochs, callbacks=[metric_callback])
+    hist = model.fit(x=tf_train_set, validation_data=tf_validation_set, epochs=num_train_epochs, callbacks=[metric_callback])
 
     model.save(output_path)
 
