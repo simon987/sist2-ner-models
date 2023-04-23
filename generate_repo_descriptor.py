@@ -62,12 +62,14 @@ def main(models_path: str = ".", output: str = "repo.json"):
                 "ORG": {
                     "backgroundColor": "#ffb329",
                     "border-radius": "3px",
-                    "padding": "0 2px"
+                    "padding": "0 2px",
+                    "color": "#000",
                 },
                 "PER": {
                     "backgroundColor": "#FF4081",
                     "border-radius": "3px",
-                    "padding": "0 2px"
+                    "padding": "0 2px",
+                    "color": "#000",
                 },
                 "O": {}
             },
